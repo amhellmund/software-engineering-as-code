@@ -9,10 +9,11 @@ packages = [{include = "swac", from = "src"}]
 [tool.poetry.dependencies]
 python = "^3.12"
 pydantic = "^2.7.0"
+typed-argparse = "^0.3.1"
 
 
 [tool.poetry.scripts]
-swac = "swac.cli.cli:main"
+swac = "swac.cli.ui:main"
 
 
 [build-system]

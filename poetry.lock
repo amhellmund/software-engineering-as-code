@@ -122,6 +122,20 @@ files = [
 typing-extensions = ">=4.6.0,<4.7.0 || >4.7.0"
 
 [[package]]
+name = "typed-argparse"
+version = "0.3.1"
+description = "Write type-safe and elegant CLIs with a clear separation of concerns."
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "typed-argparse-0.3.1.tar.gz", hash = "sha256:3aac61caa50206e080d09a00c3fe552bc4e642739beaef89f5f8c1131b5d5afe"},
+    {file = "typed_argparse-0.3.1-py3-none-any.whl", hash = "sha256:1fbbc3c6adde19aa04edafebd8a7efccab4ddd403d03ec68172cc20b237bbaa7"},
+]
+
+[package.dependencies]
+typing-extensions = "*"
+
+[[package]]
 name = "typing-extensions"
 version = "4.11.0"
 description = "Backported and Experimental Type Hints for Python 3.8+"
@@ -135,4 +149,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "dafc372a8b54928c61a74fd00cb2a0ccdfe883ee166477def9598c7702a9484a"
+content-hash = "c86fccb301e0bf09f3da1ebaecb3a3723d16517a517c2f3f17a7ea6a123828c2"
