@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "swac"
+version = "0.1.0"
+description = ""
+authors = ["Andi Hellmund <am.hellmund@gmail.com>"]
+readme = "README.md"
+packages = [{include = "swac", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pydantic = "^2.7.0"
+
+
+[tool.poetry.scripts]
+swac = "swac.cli.cli:main"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -9,7 +9,7 @@ Software engineering is a discipline to design software systems from requirement
 Different tools exist to model the artifacts of the involved engineering stages, typically with a central database for persistency, access and version control.
 This project takes a different approach to keep the software engineering artifacts in a textual representation close to the code and provide advanced web-based and CI-based tooling to ease the use.
 
-![High-Level Overview](documentation/images/overview.drawio.png)
+![High-Level Overview](docs/images/overview.drawio.png)
 
 
 # Features
