@@ -10,6 +10,8 @@ packages = [{include = "swac", from = "src"}]
 python = "^3.12"
 pydantic = "^2.7.0"
 typed-argparse = "^0.3.1"
+fastapi = "^0.110.2"
+uvicorn = "^0.29.0"
 
 
 [tool.poetry.scripts]
