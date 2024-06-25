@@ -1,0 +1,98 @@
+# Title {anchor}
+
+Lorem Ipsum is simply dummy *text* of the printing and typesetting industry.
+Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when
+an unknown printer took a galley of type and scrambled it to make a type specimen book.
+It has survived not only five centuries, but also the leap into electronic typesetting,
+remaining essentially unchanged. It was popularised in the 1960s with the release of 
+Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+software like Aldus PageMaker including versions of Lorem Ipsum.
+
+
+## Sub-Title {anchor}
+
+*Lorem Ipsum* is simply dummy text of the printing and typesetting industry.
+Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when
+an unknown printer took a galley of type and scrambled it to make a type specimen book.
+It has survived not only five centuries, but also the leap into electronic typesetting,
+remaining essentially unchanged. It was popularised in the 1960s with the release of 
+Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+software like Aldus PageMaker including versions of Lorem Ipsum.
+
+    
+### Paragraph {anchor}
+
+Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when
+an unknown printer took a galley of type and scrambled it to make a type specimen book.
+It has survived not only five centuries, but also the leap into electronic typesetting,
+remaining essentially unchanged. It was popularised in the 1960s with the release of 
+Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+software like Aldus PageMaker including versions of Lorem Ipsum.
+
+
+#### Section {anchor}
+
+Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when
+an unknown printer took a galley of type and scrambled it to make a type specimen book.
+It has survived not only five centuries, but also the leap into electronic typesetting,
+remaining essentially unchanged. It was popularised in the 1960s with the release of 
+Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+software like Aldus PageMaker including versions of Lorem Ipsum.
+
+
+Text Formatting
+---------------
+
+<bold>bold</bold>
+<italic>italic</italic>
+<underline>underline</underline>
+<strike>strike</strike>
+<color:red>text in red</color>
+<code>code</code>
+<link:https://www.google.com>Google</link>
+
+
+Code
+----
+[code]{anchor}(
+  lang=c++
+  start-number=0
+): <Title>
+  [load](type=file): <relative-path-to-code-file>
+
+
+[card]: <Title>
+  [header](color=red):
+    Header Text
+  [content]:
+    Content Text
+  [footer]:
+    Footer Text
+
+
+[tabs]{anchor}: <Title>
+  [tab]: Linux
+    Linux-Content
+  [tab]: Windows
+    Windows-Content
+
+
+[image]{anchor}: <Title>
+  [load](type=file): <relative-path-to-image>
+
+
+[table]{anchor}(
+  columns=3
+  row_colors=['red','green','yellow']
+): <Title>
+  [row](color=red):
+    [col](vspan=2): ABC
+    [col]: CDE
+    [col]: EFG
+  [row](color=yellow):
+    [col](hspan=2):
+      GHK
+
+References to SWAC-Elements: @req-020-short_name
