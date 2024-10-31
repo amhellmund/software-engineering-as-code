@@ -1,14 +1,15 @@
-pub fn add(left: u64, right: u64) -> u64 {
-    left + right
+use std::path::PathBuf;
+
+use anyhow::Result;
+
+pub fn init(_root_dir: PathBuf) -> Result<()> {
+    Ok(())
 }
 
-#[cfg(test)]
-mod tests {
-    use super::*;
+pub fn check(_root_dir: PathBuf) -> Result<()> {
+    Ok(())
+}
 
-    #[test]
-    fn it_works() {
-        let result = add(2, 2);
-        assert_eq!(result, 4);
-    }
+pub fn generate(_root_dir: PathBuf, _dynamic_data_dir: Option<PathBuf>) -> Result<()> {
+    Ok(())
 }
