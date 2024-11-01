@@ -1,5 +1,5 @@
 # Simple workflow for deploying static content to GitHub Pages
-name: Deploy static content to Pages
+name: Build and deploy documentation
 
 on:
   # Runs on pushes targeting the default branch
@@ -39,6 +39,8 @@ jobs:
           mdbook-version: '0.4.40'
       - name: Generate book
         run: mdbook build docs
+      - name: List
+        run: ls -lr
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
