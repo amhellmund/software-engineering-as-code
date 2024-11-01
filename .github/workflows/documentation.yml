@@ -39,12 +39,10 @@ jobs:
           mdbook-version: '0.4.40'
       - name: Generate book
         run: mdbook build docs
-      - name: List
-        run: ls -lr docs
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './book'
+          path: './docs/book'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
